@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_scre"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/splash_scre"
+    tools:context=".SplashScreen">
+
+    <view
+        android:id="@+id/view"
+        class="androidx.cardview.widget.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        app:cardBackgroundColor="#B6EEF1" />
+</RelativeLayout>
